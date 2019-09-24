@@ -1,0 +1,27 @@
+$blue: #00b0e9;
+
+nav.main-menu {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+
+    a {
+        color: #ffffff;
+        display: inline-block;
+        margin-right: 15px;
+        padding: 10px;
+        vertical-align: middle;
+        line-height: 40px;
+        height: 40px;
+    }
+    a:hover {
+        background-color: $blue;
+    }
+
+    img.logo {
+        height: 35px;
+        vertical-align: middle;
+    }
+}
